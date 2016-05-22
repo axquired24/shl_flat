@@ -1,0 +1,7 @@
+<!-- Yang diubah -->
+	./default_page.php	-> Cuma ubah link dibagian template detal + "cek template lainnya".
+	./customCss.css			-> Replace dgn file yg baru ini
+
+<!-- Yang ditambah -->
+	./inc/more/template_list.php
+	./inc/more/template_detail.php	

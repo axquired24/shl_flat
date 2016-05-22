@@ -1,0 +1,60 @@
+/** Custom LESS**/
+
+/** initialize **/
+    @color1: #F0511F;
+    @color2: #FFA52A;
+    @color3: #FFD92D;
+    @color4: #47B6FF;
+    @color5: #2D85D3;
+    @color0: #F5F5F5;
+    @color6: #F0F0F0;
+    @pattern1: url('img/bg_pattern/bg_galeri.png') repeat;
+    
+.container-fluid > .row{
+	min-height: 300px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+/** Oranye, light oranye, yellow, light blue, blue **/
+.bg(@color){background-color: @color;}
+.bg1{.bg(@color1);}
+.bg2{.bg(@color2);}
+.bg3{.bg(@color3);}
+.bg4{.bg(@color4);}
+.bg5{.bg(@color5);}
+.bg6{.bg(@color6);}
+.bg0{.bg(@color0);}
+
+/*pattern bg*/
+.bgArtikel{
+    background: @color5 @pattern1;
+}
+.bgGaleri{
+    background: @color2 @pattern1;
+}
+.bgDef{
+    background: @color0 @pattern1;    
+}
+
+.color0{color: @color0;}
+.color1{color: @color1;}
+.color2{color: @color2;}
+.color3{color: @color3;}
+.color4{color: @color4;}
+.color5{color: @color5;}
+.color6{color: @color6;}
+
+.pd10{padding: 10px; padding-left:0;}
+.mg5{margin-bottom: 5px;}
+.col-content{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    }
+.artikel p{text-indent:30px; text-align: justify}
+.bghover{background-color: @color0; padding: 20px;}
+.bghover:hover{border:@color5 1px dotted;}
+	

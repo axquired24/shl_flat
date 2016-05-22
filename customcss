@@ -1,0 +1,28 @@
+/** Custom CSS **/
+.container-fluid > .row{
+	min-height: 700px;
+}
+	/** Oranye, light oranye, yellow, light blue, blue **/
+	.bg0{background: none;}
+	.bg1{
+		background-color: #F0511F;
+	}
+	.bg2{
+		background-color: #FFA52A;
+	}
+	.bg3{ 
+		background-color: #FFD92D;
+	}
+	.bg4{
+		background-color: #47B6FF;
+	}
+	.bg5{
+		background-color: #2D85D3;
+	}
+	.color0{color: #F5F5F5}
+	.color1{color: #F0511F;}
+	.color2{color: #FFA52A;}
+	.color3{color: #FFD92D;}
+	.color4{color: #47B6FF;}
+	.color5{color: #2D85D3;}
+	
